@@ -1,0 +1,12 @@
+<aura:component implements="force:appHostable,forceCommunity:availableForAllPageTypes" access="global" >
+<aura:attribute name="pageReference" type="Object"/>
+  
+ <lightning:tabset >
+		<lightning:navigation aura:id="navService"/> 
+        <lightning:tab onactive="{! c.handleActive }" label="Home" id="home" />
+        <lightning:tab onactive="{! c.handleActive }" label="Support" id="support" />
+        <lightning:tab onactive="{! c.handleActive }" label="Capability" id="capability" />
+        <lightning:tab onactive="{! c.handleActive }" label="Connect" id="connect" />
+		<lightning:tab onactive="{! c.handleActive }" label="News" id="news" />
+    </lightning:tabset>
+</aura:component>

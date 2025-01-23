@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>pcldm__Action__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Select the Action of Masking for the field</description>
+    <inlineHelpText>Select the Action of Masking for the field</inlineHelpText>
+    <label>Action</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Erase</fullName>
+                <default>false</default>
+                <label>Erase</label>
+            </value>
+            <value>
+                <fullName>Replace</fullName>
+                <default>false</default>
+                <label>Replace</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

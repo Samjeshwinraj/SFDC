@@ -1,0 +1,8 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes,lightning:isUrlAddressable" access="global" >
+<aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <h1>Contact</h1>	
+    <img src="{!$Resource.Contact}" alt="Contact" class="airbusimage"/>
+    <br></br><br></br>
+	<h1>FAQ</h1>
+    <img src="{!$Resource.FAQ}" alt="FAQ" class="airbusimage"/>
+</aura:component>

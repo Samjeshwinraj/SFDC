@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Shows the total number of Records errored out under Deletion or Masking of all the Objects queried under the Masking Batch --></help>
+    <label><!-- Records Errored --></label>
+    <name>pcldm__Records_Errored__c</name>
+</CustomFieldTranslation>

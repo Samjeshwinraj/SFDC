@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Filter your records by entering a WHERE clause. For eg., if your SOQL is &quot;SELECT count() FROM Contact WHERE FirstName = &apos;John&apos; &quot; then you only should enter &quot; FirstName = &apos;John&apos; &quot; --></help>
+    <label><!-- Filter Criteria --></label>
+    <name>pcldm__Filter_Criteria__c</name>
+</CustomFieldTranslation>

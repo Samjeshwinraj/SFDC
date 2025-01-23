@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>pcldm__Notify_User__c</fullName>
+    <deprecated>false</deprecated>
+    <inlineHelpText>Enter username(Comma-separated) of those users, whom you want to notify after masking is completed.</inlineHelpText>
+    <label>Notify Users</label>
+    <length>32768</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Enter username from whom &apos;.invalid&apos; needs to be removed from their email addresses after Masking batch is run. --></help>
+    <label><!-- Activate Users --></label>
+    <name>pcldm__User_Email_ids__c</name>
+</CustomFieldTranslation>

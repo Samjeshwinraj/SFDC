@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>pcldm__Mask_Records</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>pcldm__DM_Object_Masking_compact_layout</compactLayoutAssignment>
+    <description>Use this Record type if you want to Replace or Erase field values of the Object</description>
+    <label>Mask Records</label>
+</RecordType>

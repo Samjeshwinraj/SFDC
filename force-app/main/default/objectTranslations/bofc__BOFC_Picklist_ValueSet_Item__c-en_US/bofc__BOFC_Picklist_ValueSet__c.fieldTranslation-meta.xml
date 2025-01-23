@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- BOFC Picklist ValueSet --></label>
+    <name>bofc__BOFC_Picklist_ValueSet__c</name>
+    <relationshipLabel><!-- BOFC Picklist ValueSet Items --></relationshipLabel>
+</CustomFieldTranslation>

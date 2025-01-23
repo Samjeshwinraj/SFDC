@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>pcldm__Configuration__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Configuration</label>
+    <referenceTo>pcldm__Configuration__c</referenceTo>
+    <relationshipLabel>Object Maskings</relationshipLabel>
+    <relationshipName>Object_Maskings</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

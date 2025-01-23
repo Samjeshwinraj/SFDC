@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Action --></label>
+    <name>bofc__Action__c</name>
+    <picklistValues>
+        <masterLabel>Click the Button</masterLabel>
+        <translation><!-- Click the Button --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Open Featured Page</masterLabel>
+        <translation><!-- Open Featured Page --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

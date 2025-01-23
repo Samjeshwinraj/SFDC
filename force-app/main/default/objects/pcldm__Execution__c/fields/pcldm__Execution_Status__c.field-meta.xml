@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>pcldm__Execution_Status__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IF
+(ISPICKVAL(  pcldm__Batch_Status__c  , &quot;In-Progress&quot;),&quot;In Progress - &quot; &amp; TEXT (ROUND(  pcldm__Objects_In_Progress__c  /  pcldm__Objects_Total__c  ,2)*100) &amp; &quot;% left&quot;,
+IF( ISPICKVAL( pcldm__Batch_Status__c , &quot;Completed&quot;),
+&quot;Completed &quot; &amp; BR() &amp; IMAGE(&quot;/img/samples/color_green.gif&quot;,&quot;green&quot;,10,( ROUND (  pcldm__Records_Processed__c  /  pcldm__Records_Total__c ,2 )*100)) &amp;
+IMAGE(&quot;/img/samples/color_red.gif&quot;,&quot;red&quot;,10, 100 - (ROUND( pcldm__Records_Processed__c  /  pcldm__Records_Total__c ,2)*100)),&quot;Errored&quot;
+))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Execution Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

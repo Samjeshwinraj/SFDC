@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>pcldm__Delete_Records</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>pcldm__DM_Object_Masking_compact_layout</compactLayoutAssignment>
+    <description>Use this Record type if you want to Delete the records of the Object</description>
+    <label>Delete Records</label>
+</RecordType>

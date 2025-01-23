@@ -1,0 +1,2 @@
+<apex:page standardController="test__c" recordSetVar="oppty"
+action="{!URLFOR($Action.test__c.List,$ObjectType.test__c)}" />

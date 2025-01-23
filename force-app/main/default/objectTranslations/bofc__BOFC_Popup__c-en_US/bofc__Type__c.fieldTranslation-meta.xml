@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Type --></label>
+    <name>bofc__Type__c</name>
+    <picklistValues>
+        <masterLabel>AboutToExpire</masterLabel>
+        <translation><!-- AboutToExpire --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Active</masterLabel>
+        <translation><!-- Active --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Expire</masterLabel>
+        <translation><!-- Expire --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Free</masterLabel>
+        <translation><!-- Free --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Priority</masterLabel>
+        <translation><!-- Priority --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

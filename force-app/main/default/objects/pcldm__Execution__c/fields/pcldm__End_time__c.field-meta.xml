@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>pcldm__End_time__c</fullName>
+    <deprecated>false</deprecated>
+    <description>End time</description>
+    <inlineHelpText>Shows the end time of the Configuration Masking batch</inlineHelpText>
+    <label>End time</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

@@ -1,0 +1,7 @@
+<aura:component implements="force:lightningQuickAction,force:hasRecordId,lightning:actionOverride">
+    Record save status: {!v.saveState}
+    <aura:attribute name="saveState" type="String" default="UNSAVED" />
+    <aura:handler name="onSaveSuccess" event="force:recordSaveSuccess" action="{!c.handleSaveSuccess}"/>
+    <force:recordEdit aura:id="edit" recordId="{!v.recordId}"/>
+    <lightning:button label="Save" onclick="{!c.save}"/>    
+</aura:component>

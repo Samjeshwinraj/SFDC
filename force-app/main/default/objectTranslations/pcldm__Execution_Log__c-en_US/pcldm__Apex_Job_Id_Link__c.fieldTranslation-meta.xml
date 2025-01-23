@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This shows the Apex Job Batch id which is being executed for this particular object --></help>
+    <label><!-- Apex Job Id Link --></label>
+    <name>pcldm__Apex_Job_Id_Link__c</name>
+</CustomFieldTranslation>

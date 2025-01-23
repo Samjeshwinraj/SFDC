@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This is Dependent on the Action selected before so as to give further actions of Masking to the Field. --></help>
+    <label><!-- Further Action --></label>
+    <name>pcldm__Further_Action__c</name>
+    <picklistValues>
+        <masterLabel>Formula Field</masterLabel>
+        <translation><!-- Formula Field --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hardcoded Value</masterLabel>
+        <translation><!-- Hardcoded Value --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pattern - Custom List</masterLabel>
+        <translation><!-- Pattern - Custom List --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pattern - Regex</masterLabel>
+        <translation><!-- Pattern - Regex --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Random</masterLabel>
+        <translation><!-- Random --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

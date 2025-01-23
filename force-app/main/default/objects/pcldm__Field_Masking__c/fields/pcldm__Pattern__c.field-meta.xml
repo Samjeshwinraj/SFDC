@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>pcldm__Pattern__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <inlineHelpText>Select the Pattern record based on the field type selected for Field Masking.</inlineHelpText>
+    <label>Pattern</label>
+    <lookupFilter>
+        <active>true</active>
+        <booleanFilter>1</booleanFilter>
+        <filterItems>
+            <field>$Source.pcldm__Action__c</field>
+            <operation>equals</operation>
+            <valueField>pcldm__Pattern__c.pcldm__Type__c</valueField>
+        </filterItems>
+        <isOptional>true</isOptional>
+    </lookupFilter>
+    <referenceTo>pcldm__Pattern__c</referenceTo>
+    <relationshipLabel>Field Maskings</relationshipLabel>
+    <relationshipName>Field_Maskings</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <recordTypes>
+        <description><!-- Test_Record_Type --></description>
+        <label><!-- Test Record Type --></label>
+        <name>bofc__Test_Record_Type</name>
+    </recordTypes>
+</CustomObjectTranslation>

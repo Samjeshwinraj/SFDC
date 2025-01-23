@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Shows the number of Objects for which the records are Deleted or Masked (includes delete settings) queried under Masking Batch . --></help>
+    <label><!-- Objects Masked --></label>
+    <name>pcldm__Objects_Masked__c</name>
+</CustomFieldTranslation>

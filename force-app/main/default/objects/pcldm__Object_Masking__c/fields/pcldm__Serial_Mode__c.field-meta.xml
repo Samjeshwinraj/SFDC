@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>pcldm__Serial_Mode__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <inlineHelpText>Check this to execute this masking in Serial mode. Useful for objects that may cause record locking during mass update.</inlineHelpText>
+    <label>Serial Mode</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

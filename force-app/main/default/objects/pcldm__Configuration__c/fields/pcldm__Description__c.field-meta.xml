@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>pcldm__Description__c</fullName>
+    <deprecated>false</deprecated>
+    <inlineHelpText>User can specify the more details like the Name of the Sandbox or Objects for which this Masking is going to be used.</inlineHelpText>
+    <label>Description</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

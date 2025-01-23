@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>pcldm__Further_Action__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This is Dependent on the Action selected before so as to give further actions of Masking to the Field.</description>
+    <inlineHelpText>This is Dependent on the Action selected before so as to give further actions of Masking to the Field.</inlineHelpText>
+    <label>Further Action</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>pcldm__Action__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Formula Field</fullName>
+                <default>false</default>
+                <label>Formula Field</label>
+            </value>
+            <value>
+                <fullName>Pattern - Custom List</fullName>
+                <default>false</default>
+                <label>Pattern - Custom List</label>
+            </value>
+            <value>
+                <fullName>Pattern - Regex</fullName>
+                <default>false</default>
+                <label>Pattern - Regex</label>
+            </value>
+            <value>
+                <fullName>Random</fullName>
+                <default>false</default>
+                <label>Random</label>
+            </value>
+            <value>
+                <fullName>Hardcoded Text</fullName>
+                <default>false</default>
+                <label>Hardcoded Value</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Replace</controllingFieldValue>
+            <valueName>Formula Field</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Replace</controllingFieldValue>
+            <valueName>Pattern - Custom List</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Replace</controllingFieldValue>
+            <valueName>Pattern - Regex</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Replace</controllingFieldValue>
+            <valueName>Random</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Replace</controllingFieldValue>
+            <valueName>Hardcoded Text</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,11 @@
+<aura:component implements="flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global" >
+	<form class="slds-form_stacked" onsubmit="{!c.preventDefault}">
+            <lightning:input aura:id="Name" label="Name"
+                             name="expensename"
+                             />
+       		<div onkeypress="{!c.preventDefault}">
+    		<lightning:button variant="brand" onclick="{! c.handleClick }"  label="Submit"  />
+        	</div>
+    </form>
+
+</aura:component>

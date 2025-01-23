@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>pcldm__DM_Object_Masking_compact_layout</fullName>
+    <fields>pcldm__Object_API__c</fields>
+    <fields>pcldm__Object_Label__c</fields>
+    <fields>RecordTypeId</fields>
+    <fields>pcldm__Configuration__c</fields>
+    <fields>pcldm__Serial_Mode__c</fields>
+    <fields>pcldm__Batch_Size__c</fields>
+    <label>Object Masking compact layout</label>
+</CompactLayout>

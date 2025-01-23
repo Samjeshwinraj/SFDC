@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>pcldm__URL_Validation_Rule</fullName>
+    <active>true</active>
+    <description>Validation rule for URL on Field Masking.</description>
+    <errorConditionFormula>AND(
+	TEXT(pcldm__Further_Action__c)=&quot;Hardcoded Text&quot;,
+ pcldm__Field_Type__c =&quot;URL&quot;,
+NOT(REGEX( pcldm__Value__c ,&quot;^((http|https)://)??(www[.])??([a-zA-Z0-9]|-)+?([.][a-zA-Z0-9(-|/|=|?)??]+?)+?$&quot;)))</errorConditionFormula>
+    <errorMessage>Invalid URL format.</errorMessage>
+</ValidationRule>

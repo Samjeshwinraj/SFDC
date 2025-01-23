@@ -1,0 +1,16 @@
+<aura:component >
+    <aura:attribute name="user" type="string" default="boku" />
+    <h1>{!v.user}</h1>
+   <div class="box"> 
+       <lightning:card title="Addition" iconName="standard:account">
+           <!--<lightning:input label="Enter your name"type="string" name="name" value="{!v.user}" />-->
+           <lightning:input label="Enter first no" type="Decimal" aura:id="aval" />   
+           <lightning:input label="Enter Second no" type="Decimal" aura:id="bval" /> 
+           <lightning:input label="Result" type="Decimal" aura:id="Res" /> 
+       <aura:set attribute="actions" >
+           <lightning:button label="Add"  onclick="{!c.call}">         
+           </lightning:button>       
+           </aura:set>             
+       </lightning:card> 
+    </div>	
+</aura:component>

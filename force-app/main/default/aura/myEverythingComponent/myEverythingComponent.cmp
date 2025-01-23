@@ -1,0 +1,14 @@
+<!--
+  @File Name          : myEverythingComponent.cmp
+  @Description        : 
+  @Author             : ChangeMeIn@UserSettingsUnder.SFDoc
+  @Group              : 
+  @Last Modified By   : ChangeMeIn@UserSettingsUnder.SFDoc
+  @Last Modified On   : 1/30/2020, 5:42:00 PM
+  @Modification Log   : 
+  Ver       Date            Author      		    Modification
+  1.0    1/30/2020   ChangeMeIn@UserSettingsUnder.SFDoc     Initial Version
+-->
+<aura:component>
+    I'll have one with everything
+</aura:component>

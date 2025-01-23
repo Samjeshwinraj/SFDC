@@ -1,0 +1,36 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes" access="global" >
+    <!--link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" /-->
+<lightning:navigation aura:id="navService"/>
+<aura:attribute name="pageReference" type="Object"/>
+	
+<body>
+	<div class="topnav" id="myTopnav">
+ 	 <a href="#Home" class="active">Home</a>
+  	<div class="dropdown">
+    <button class="dropbtn">Support 
+      <i class=""></i>
+    </button>
+    <div class="dropdown-content">
+      
+      <a href="#" id="contact" onclick="{! c.handleActive }">Contact</a>
+      <a href="#">FAQ</a>
+    </div>
+	</div>
+	<!--a href="#Support">Support</a-->
+	 <a href="#Capability">Capability</a>
+	<a href="#Connect">Connect</a>
+	<a href="#News">News</a>
+  </div> 
+
+<div style="padding-left:16px">
+  <h2>What is NDC?</h2>
+  <p>NDC (New Distribution Capability) is a travel industry-supported program launched by IATA for the development and market adoption of a new, XML-based data transmission standard. The NDC Standard enables the travel industry to transform the way air products are retailed to corporations, leisure and business travelers, by addressing the industry’s current distribution limitations. British Airways are at the forefront in developing the NDC standard, and we have opened our NDC to interested parties from across the travel industry.
+
+Through NDC, British Airways is committed to delivering a robust, reliable and content-rich channel to our partners across the world. NDC is enabling enhanced product offerings, and new opportunities for closer cooperation between British Airways and its key partners, in what is an exciting change for the travel industry, that can benefit all parties in the value chain.
+
+From this NDC Communications Hub, you will find everything you need to connect to British Airways NDC through a connection method that suits you, ensuring you are well prepared for the exciting new content and functionality NDC is enabling.</p>
+ {!v.pageReference}
+</div>
+</body>
+
+</aura:component>

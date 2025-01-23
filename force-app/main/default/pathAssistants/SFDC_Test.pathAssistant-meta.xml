@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Opportunity</entityName>
+    <fieldName>DeliveryInstallationStatus__c</fieldName>
+    <masterLabel>SFDC Test</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>CloseDate</fieldNames>
+        <info>&lt;p&gt;Testing&lt;/p&gt;</info>
+        <picklistValueName>In progress</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>__MASTER__</recordTypeName>
+</PathAssistant>

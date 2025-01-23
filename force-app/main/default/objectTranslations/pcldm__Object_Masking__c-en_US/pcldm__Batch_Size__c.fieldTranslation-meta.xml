@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Batch size will determine the record count to be processed for this object under Data Masker batch. --></help>
+    <label><!-- Batch Size --></label>
+    <name>pcldm__Batch_Size__c</name>
+</CustomFieldTranslation>

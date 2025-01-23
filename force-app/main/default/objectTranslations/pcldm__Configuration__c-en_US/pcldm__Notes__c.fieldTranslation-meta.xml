@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If checked then all Notes will be deleted from the Sandbox --></help>
+    <label><!-- Notes --></label>
+    <name>pcldm__Notes__c</name>
+</CustomFieldTranslation>

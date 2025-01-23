@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>pcldm__Count_of_Field_Masking__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Shows the count of Field Masking records under the Object</description>
+    <inlineHelpText>Shows the count of Field Masking records under the Object</inlineHelpText>
+    <label>Count of Field Masking</label>
+    <summaryForeignKey>pcldm__Field_Masking__c.pcldm__Object_Masking__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

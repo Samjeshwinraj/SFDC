@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>
+        <!-- If checked then all Field History will be deleted.
+Note: This setting requires the following permission: Delete from Field History and Delete from Field History Archive. Enable from Setup | User Interface -->
+    </help>
+    <label><!-- Field History --></label>
+    <name>pcldm__Field_History__c</name>
+</CustomFieldTranslation>

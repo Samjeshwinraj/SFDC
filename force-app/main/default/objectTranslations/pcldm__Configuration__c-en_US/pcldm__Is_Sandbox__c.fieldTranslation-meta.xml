@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This field is for internal testing only and will NOT be packaged in the final product. It will be used to test masking in Prod vs. non-Prod instance. --></help>
+    <label><!-- Is Sandbox --></label>
+    <name>pcldm__Is_Sandbox__c</name>
+</CustomFieldTranslation>

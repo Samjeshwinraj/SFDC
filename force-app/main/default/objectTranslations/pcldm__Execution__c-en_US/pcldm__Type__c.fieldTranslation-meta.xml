@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Shows the Masking type selected before executing the Masking Batch. For eg All, Specific or Errored. --></help>
+    <label><!-- Type --></label>
+    <name>pcldm__Type__c</name>
+    <picklistValues>
+        <masterLabel>All</masterLabel>
+        <translation><!-- All --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Errored</masterLabel>
+        <translation><!-- Errored --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Specific</masterLabel>
+        <translation><!-- Specific --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

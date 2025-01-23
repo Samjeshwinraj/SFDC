@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This will display the Value which will be used to Obfuscate depending upon the action selected in the prior step. --></help>
+    <label><!-- Value --></label>
+    <name>pcldm__Value__c</name>
+</CustomFieldTranslation>

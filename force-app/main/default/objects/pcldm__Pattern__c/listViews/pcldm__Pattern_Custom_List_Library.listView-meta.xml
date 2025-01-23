@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>pcldm__Pattern_Custom_List_Library</fullName>
+    <columns>NAME</columns>
+    <columns>pcldm__Data_Type__c</columns>
+    <columns>pcldm__Type__c</columns>
+    <columns>pcldm__Value__c</columns>
+    <columns>pcldm__Preview__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>Patterns by Data Masker</label>
+</ListView>

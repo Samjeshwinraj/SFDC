@@ -1,0 +1,5 @@
+<!--<apex:page >
+<apex:enhancedList type="Opportunity" height="300" rowsPerPage="25"
+        ListId="00B0o00000AkFhm" customizable="False" /></apex:page>-->
+<apex:page standardController="Opportunity" recordSetVar="oppty"
+action="{!URLFOR($Action.Opportunity.List,$ObjectType.Opportunity)}" />

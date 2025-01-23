@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <validationRules>
+        <errorMessage><!-- Invalid Currency format --></errorMessage>
+        <name>pcldm__Currency_Validation_Rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Invalid Date/Time Format. Use the format - MM/DD/YYYY HH:MM:SS --></errorMessage>
+        <name>pcldm__DateTime_Validation_Rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Invalid Date Format. Use the format - MM/DD/YYYY --></errorMessage>
+        <name>pcldm__Date_Validation_Rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Invalid email address. Please enter in a correct email format. --></errorMessage>
+        <name>pcldm__Email_Validation_Rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Invalid Number format. --></errorMessage>
+        <name>pcldm__Number_Validation_Rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Invalid Percent format. --></errorMessage>
+        <name>pcldm__Percent_Validation_Rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Invalid URL format. --></errorMessage>
+        <name>pcldm__URL_Validation_Rule</name>
+    </validationRules>
+</CustomObjectTranslation>

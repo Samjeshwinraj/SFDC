@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>pcldm__Records_Errored__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Shows the number of Records Errored for Deletion or Masking for this Object queried under the Masking Batch</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Shows the number of Records Errored for Deletion or Masking for this Object queried under the Masking Batch</inlineHelpText>
+    <label>Records Errored</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

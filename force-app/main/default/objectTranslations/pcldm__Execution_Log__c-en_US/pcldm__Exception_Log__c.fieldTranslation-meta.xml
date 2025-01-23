@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If any records are errored out under an Object, the exception log is provided here --></help>
+    <label><!-- Exception Log --></label>
+    <name>pcldm__Exception_Log__c</name>
+</CustomFieldTranslation>
